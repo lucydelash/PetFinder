@@ -4,7 +4,7 @@ function App() {
   const [pets, setPets] = useState([]);
 
   useEffect(() => {
-    fetch('/api/v1/pets') // Assuming your API endpoint for getting all pets is '/api/v1/pets'
+    fetch('/api/v1/pets')
       .then(response => response.json())
       .then(data => setPets(data))
       .catch(error => console.error('Error fetching pets:', error));

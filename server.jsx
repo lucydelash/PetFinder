@@ -5,9 +5,9 @@ const PORT = 3000;
 // Sample pet data
 const pets = [
   { id: 1, name: 'Fluffy', owner: 'John' },
-  { id: 2, name: 'Max', owner: 'Alice' },
-  { id: 3, name: 'Buddy', owner: 'John' },
-  { id: 4, name: 'Charlie', owner: 'Alice' }
+  { id: 2, name: 'ChimiChanga', owner: 'Tyler' },
+  { id: 3, name: 'Mowgli', owner: 'Anusha' },
+  { id: 4, name: 'Charmander', owner: 'Char' }
 ];
 
 // API endpoint to get all pets
